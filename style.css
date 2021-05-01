@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Caveat', cursive;
+    margin: 0;
+    background-image: url('bg1.jpg');
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+}
+h1{
+    font-size: 4rem;
+    margin-top: 5rem;
+    font-weight: normal;
+    text-align: center;
+}
+.countdownC{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.bigText{
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem;
+    font-weight: bold;
+}
+.countdownEl{
+    text-align: center;
+}
+.countdownEl span{
+    font-size: 1.3rem;
+}
